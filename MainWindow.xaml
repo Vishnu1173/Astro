@@ -1,0 +1,31 @@
+﻿<Window x:Class="Astro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Astro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock Text=" Enter Your Details" FontSize=" 18" HorizontalAlignment="Center" ></TextBlock>
+            <Label Content="Name:"/>
+            <TextBox x:Name="nameTextBox" Width=" 50" Margin=" 0,5"></TextBox>
+            <Label Content="DOB:"/>
+            <TextBox x:Name="dobTextBox" Width=" 50" Margin=" 0,5"></TextBox>
+            <Label x:Name="arw"  Content="Are You Working:"></Label>
+            <Button x:Name="btnarw" Content=" Yes" Width=" 50" Height=" 40" Margin="10,10,0,0"></Button>
+            <Button x:Name="btnarw1" Content=" No" Width=" 50" Height=" 40" Margin="10,10,0,0"></Button>
+            <Label Content="Qualification:"/>
+            <TextBox x:Name="qualificationTextBox" Width=" 50" Margin=" 0,5"></TextBox>
+            <Button Content="Generate Astrology" Width="150" Click="Button_Click"   Margin=" 0,20"></Button>
+            
+        
+
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Window>
